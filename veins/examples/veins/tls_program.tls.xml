@@ -1,0 +1,90 @@
+<tls>
+<!--RSU[0]-->
+<tlLogic id="5217665421" type="static" programID="p1" offset="0">
+<phase duration="999" state="GG"/>
+<phase duration="999" state="GG"/>
+</tlLogic>
+<!--RSU[1]-->
+<tlLogic id="2680904053" type="static" programID="p1" offset="0">
+<phase duration="999"  state="GGGrr"/>
+<phase duration="999"  state="GGGrr"/>
+</tlLogic>
+<!--RSU[2]-->
+<tlLogic id="267939824" type="static" programID="p1" offset="0">
+<phase duration="999" state="rrrrGG"/>
+<phase duration="999"  state="rrrrGG"/>
+</tlLogic>
+<!--RSU[3]-->
+<tlLogic id="267939816" type="static" programID="p1" offset="0">
+<phase duration="999" state="GGGrr"/>
+<phase duration="999" state="GGGrr"/>
+</tlLogic>
+<!--RSU[4]-->
+<tlLogic id="267544843" type="static" programID="p1" offset="0">
+<phase duration="999" state="rrGG"/>
+<phase duration="999" state="rrGG"/>
+</tlLogic>
+<!--RSU[5]-->
+<tlLogic id="267544845" type="static" programID="p1" offset="0">
+<phase duration="999" state="GGGrrG"/>
+<phase duration="999" state="GGGrrG"/>
+</tlLogic>
+<!--RSU[6]-->
+<tlLogic id="4207562847" type="static" programID="p1" offset="0">
+<phase duration="999" state="rrrGGGGrrr"/>
+<phase duration="999" state="rrrGGGGrrr"/>
+</tlLogic>
+<!--RSU[7]-->
+<tlLogic id="267544849" type="static" programID="p1" offset="0">
+<phase duration="999" state="GGGrr"/>
+<phase duration="999" state="GGGrr"/>
+</tlLogic>
+<!--RSU[8]-->
+<tlLogic id="264272696" type="static" programID="p1" offset="0">
+<phase duration="999" state="rrGGG"/>
+<phase duration="999" state="rrGGG"/>
+</tlLogic>
+<!--RSU[9]-->
+<tlLogic id="5162953780" type="static" programID="p1" offset="0">
+<phase duration="999" state="GG"/>
+<phase duration="999"  state="GG"/>
+</tlLogic>
+<!--RSU[10]-->
+<tlLogic id="264272697" type="static" programID="p1" offset="0">
+<phase duration="999" state="GGGrr"/>
+<phase duration="999" state="GGGrr"/>
+</tlLogic>
+<!--RSU[11]-->
+<tlLogic id="264272698" type="static" programID="p1" offset="0">
+<phase duration="999" state="rrGG"/>
+<phase duration="999"  state="rrGG"/>
+</tlLogic>
+<!--RSU[12]-->
+<tlLogic id="5162957495" type="static" programID="p1" offset="0">
+<phase duration="999" state="GG"/>
+<phase duration="999"  state="GG"/>
+</tlLogic>
+<!--RSU[13]-->
+<tlLogic id="3888620560" type="static" programID="p1" offset="0">
+<phase duration="999" state="GGGrrr"/>
+<phase duration="999" state="GGGrrr"/>
+</tlLogic>
+
+<tlLogic id="7245321337" type="static" programID="p1" offset="0">
+<phase duration="999" state="rr"/>
+<phase duration="999" state="rr"/>
+</tlLogic>
+<!--RSU[14]-->
+<tlLogic id="5228154888" type="static" programID="p1" offset="0">
+<phase duration="999" state="GG"/>
+<phase duration="999"  state="GG"/>
+</tlLogic>
+<!--RSU[15]-->
+<tlLogic id="5228154887" type="static" programID="p1" offset="0">
+<phase duration="999" state="GG"/>
+<phase duration="999"  state="GG"/>
+</tlLogic>
+
+
+
+</tls>

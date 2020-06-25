@@ -1,0 +1,23 @@
+###MAPPREP###
+$ netconvert --osm-files erlangen.osm -o erlangen.net.xml
+$ python /usr/share/sumo/tools/randomTrips.py -n erlangen.net.xml -r erlangen.rou.xml  -e 400 -l
+$ polyconvert -n erlangen.net.xml --osm-files erlangen.osm -o erlangen.poly.xml
+
+
+##RUN SUMO WHITHIN OMNET##	
+$ python sumo-launchd.py -vv -c sumo-gui
+$ python sumo-launchd.py -vv -c sumo
+
+##USEFUL##
+$ cd /usr/share/sumo/bin && ./netedit
+polyconvert --visum circles.net.xml -o circles.poly.xml
+
+
+##tutorials##
+http://cse.iitkgp.ac.in/~soumya/micro/t2-3.pdf
+http://cse.iitkgp.ac.in/~soumya/micro/t2-7.pdf
+https://sumo.dlr.de/docs/Tutorials/Driving_in_Circles.html
+###################RUTA#########################
+   <vehicle id="60" depart="60.00">
+        <route edges="150166760 150166749#0 150166749#1 150166749#2 150166749#3 150166749#4 107938331 107938380#0 107938380#1 107938380#2 291083105 531952886 531952885 531952884 291083101 531952883 531952882 531952881 425391225 531952880 531952879 531952878 531952877 291083095#0 291083095#1 531952876 291083090 531953023 385513374 291081716#0 291081716#1 24406756#0 24406756#1 532137775#0 532137775#1 "/>
+    </vehicle>
